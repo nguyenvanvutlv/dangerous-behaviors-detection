@@ -1,0 +1,57 @@
+- git add .
+- git commit -m "123"
+- git push origin FEATURE (main, master, huan)
+
+- git branch -M <new_branch_name>: đổi tên nhánh hiện tại
+- git branch -M <old_branch_name> <new_branch_name>: đổi tên nhánh
+- ls: hiển thị các thư mục hiện tại ở vị trí đó
+
+
+- local(chỗ code) -> stage(.git) -> server(github.com)
+- clear: xóa màn hình
+-----Add file 
+- git add .
+- git add *
+- git add <file_name>
+
+- git rm --cached <file_name>: Xóa khỏi folder .git
+
+- Add member to repo: setting -> Collaborators -> Add people 
+	-> username -> invite
+- Change defaul branch: 
+	setting -> branches -> switch branch -> update
+
+*) tạo nhánh và sang nhánh đó code...
+- git branch <branch_name>
+- git checkout <branch_name>
+-> git checkout -b <branch_name> 
+- git merge <branch_name>: merge nhánh hiện tại với <branch_name>
+- git restore <file_name>: rollback code với commit gần nhất
+
+
+- code ...
+- git add .
+- git commit -m "123"
+- git checkout dev
+- git pull origin dev
+- git checkout <my_branch>
+- git merge dev
+1. conflict
+- sửa code
+- git add .
+- git commit -m "123"
+- git push origin <my_branch>
+2. Không bị conflict
+- git push origin <my_branch>
+
+--------------------
+- git branch -d localBranchName	
+- git push origin --delete remoteBranchName
+
+pull = fetch + merge
+
+
+- Conflict là gì? https://aptechbmt.edu.vn/hoc-lap-trinh/git-github/bai-7-git-conflicts-cach-xu-ly-conflict-trong-khi-merge-18.html
+
+
+
